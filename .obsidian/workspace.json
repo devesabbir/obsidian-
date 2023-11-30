@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "15211ae1190e21be",
+        "id": "f71306de0281a3df",
         "type": "tabs",
         "children": [
           {
-            "id": "04a16aba146eaa51",
+            "id": "4ab656978c4e39ef",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "PHP/PHP Fundamentals/PHP Fundamentals.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#define",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "PHP/PHP Fundamentals/PHP Fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "PHP/PHP Fundamentals/PHP Fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "PHP/PHP Fundamentals/PHP Fundamentals.md"
               }
             }
           }
@@ -148,28 +148,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "04a16aba146eaa51",
+  "active": "4ab656978c4e39ef",
   "lastOpenFiles": [
+    "PHP/PHP Type Casting/PHP Type Casting.md",
+    "PHP/PHP Fundamentals/PHP Fundamentals.md",
+    "shopify/Shopify.md",
+    "shopify",
+    "2023-11-29.md",
+    "Redux/How Redux works behind the scenes.md",
+    "WordPress/Custom Post Type.md",
+    "README.md",
     "New folder/obsidian-/README.md",
     "New folder/obsidian-",
     "New folder",
-    "Redux/How Redux works behind the scenes.md",
     "Redux/Fundamentals of redux/Fundamentals of redux.md",
-    "README.md",
     "Untitled.md",
     "Untitled.canvas",
     "Pasted image 20231127173311.png",
     "Pasted image 20231127173319.png",
-    "WordPress/Custom Post Type.md",
     "WordPress/CustomPostType/Untitled.md",
     "WordPress/CustomPostType",
-    "Untitled",
     "WordPress",
     "Redux/Fundamentals of redux",
     "Redux",
-    "PHP/PHP Fundamentals/PHP Fundamentals.md",
     "VibeTech/Vibetech.md",
-    "PHP/PHP Type Casting/PHP Type Casting.md",
     "PHP/PHP Type Casting",
     "Untitled 1",
     "PHP/README.md",
