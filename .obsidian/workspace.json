@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "cfd2ca9a1abc6b68",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Untitled.md"
               }
             }
           }
@@ -148,15 +162,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "04a16aba146eaa51",
+  "active": "cfd2ca9a1abc6b68",
   "lastOpenFiles": [
+    "README.md",
+    "Untitled.md",
     "New folder/obsidian-/README.md",
     "New folder/obsidian-",
     "New folder",
     "Redux/How Redux works behind the scenes.md",
     "Redux/Fundamentals of redux/Fundamentals of redux.md",
-    "README.md",
-    "Untitled.md",
     "Untitled.canvas",
     "Pasted image 20231127173311.png",
     "Pasted image 20231127173319.png",
