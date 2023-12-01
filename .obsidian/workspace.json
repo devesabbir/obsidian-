@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "15211ae1190e21be",
+        "id": "6d6812eff79b7352",
         "type": "tabs",
         "children": [
           {
-            "id": "04a16aba146eaa51",
+            "id": "29030a519e0516db",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Redux/React Redux/React Redux.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -100,7 +100,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "Untitled.md",
+=======
+                "file": "Redux/React Redux/React Redux.md",
+>>>>>>> 270e8efe84175abe0ca060070160658471c58033
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +121,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
                 "file": "Untitled.md",
+=======
+                "file": "Redux/React Redux/React Redux.md",
+>>>>>>> 270e8efe84175abe0ca060070160658471c58033
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +148,11 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
                 "file": "Untitled.md"
+=======
+                "file": "Redux/React Redux/React Redux.md"
+>>>>>>> 270e8efe84175abe0ca060070160658471c58033
               }
             }
           }
@@ -162,6 +174,7 @@
       "command-palette:Open command palette": false
     }
   },
+<<<<<<< HEAD
   "active": "cfd2ca9a1abc6b68",
   "lastOpenFiles": [
     "README.md",
@@ -171,26 +184,41 @@
     "New folder",
     "Redux/How Redux works behind the scenes.md",
     "Redux/Fundamentals of redux/Fundamentals of redux.md",
+=======
+  "active": "29030a519e0516db",
+  "lastOpenFiles": [
+    "READMEFF.md",
+    "Redux/React Redux/React Redux.md",
+    "WordPress/Custom Post Type.md",
+    "Redux/React Redux",
+    "Redux/How Redux works behind the scenes",
+    "Redux/How Redux works behind the scenes/How Redux works behind the scenes.md",
+    "README.md",
+    "scroll-spy.md",
+    "Redux/Fundamentals of redux/Fundamentals of redux.md",
+    "2023-12-01.md",
+    "PHP/PHP Type Casting/PHP Type Casting.md",
+    "PHP/PHP Fundamentals/PHP Fundamentals.md",
+    "shopify/Shopify.md",
+    "shopify",
+    "2023-11-29.md",
+    "New folder/obsidian-/README.md",
+    "New folder/obsidian-",
+    "New folder",
+>>>>>>> 270e8efe84175abe0ca060070160658471c58033
     "Untitled.canvas",
     "Pasted image 20231127173311.png",
     "Pasted image 20231127173319.png",
-    "WordPress/Custom Post Type.md",
     "WordPress/CustomPostType/Untitled.md",
     "WordPress/CustomPostType",
-    "Untitled",
     "WordPress",
     "Redux/Fundamentals of redux",
     "Redux",
-    "PHP/PHP Fundamentals/PHP Fundamentals.md",
     "VibeTech/Vibetech.md",
-    "PHP/PHP Type Casting/PHP Type Casting.md",
     "PHP/PHP Type Casting",
-    "Untitled 1",
     "PHP/README.md",
-    "PHP/PHP Fundamentals/index.php",
     "PHP/PHP Fundamentals & PHP Data Types.md",
     "PHP/PHP Type Casting.md",
-    "scroll-spy.md",
     "github-profile/Untitled.md",
     "Untitled 2.canvas",
     "2023-11-17.md",

@@ -50,7 +50,7 @@
 
 ```PHP
  <?php 
-   // declare with define function 
+   // constant declare with define function 
    define('CONST_NAME','SABBIR HOSSAIN'); 
    echo CONST_NAME; 
    // declare with const keyword
@@ -137,3 +137,5 @@
 
 
 #arraydata
+
+

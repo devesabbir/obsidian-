@@ -260,3 +260,4 @@ resetBtn.addEventListener('click', () => {
 ```
 
 #redux #vanilaRedux
+
