@@ -11,13 +11,8 @@
             "id": "9d0cdf6963cb7186",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023-12-02.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023-12-02.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023-12-02.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2023-12-02.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -150,9 +141,9 @@
   },
   "active": "9d0cdf6963cb7186",
   "lastOpenFiles": [
+    "2023-12-02.md",
     "Untitled.md",
     "Untitled.canvas",
-    "2023-12-02.md",
     "README.md",
     "scroll-spy.md",
     "Pasted image 20231127173311.png",
