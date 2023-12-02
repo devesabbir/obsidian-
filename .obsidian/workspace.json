@@ -11,8 +11,13 @@
             "id": "9d0cdf6963cb7186",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Redux/React Redux/Redux-toolkit.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Redux/React Redux/Redux-toolkit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Redux/React Redux/Redux-toolkit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Redux/React Redux/Redux-toolkit.md"
+              }
             }
           }
         ],
@@ -141,6 +150,8 @@
   },
   "active": "9d0cdf6963cb7186",
   "lastOpenFiles": [
+    "Redux/React Redux/React Redux.md",
+    "Redux/React Redux/Redux-toolkit.md",
     "2023-12-02.md",
     "Untitled.md",
     "Untitled.canvas",
@@ -148,7 +159,6 @@
     "scroll-spy.md",
     "Pasted image 20231127173311.png",
     "Pasted image 20231127173319.png",
-    "Redux/React Redux/React Redux.md",
     "READMEFF.md",
     "WordPress/Custom Post Type.md",
     "Redux/React Redux",
