@@ -196,3 +196,54 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 #redux #provider-with-store #React-redux
 
 
+#### Connect API (HOC)
+
+```jsx
+
+// Redux connect API
+import { connect } from 'react-redux'
+import { decrement, increment } from '../../src/redux/counter/actions/counterAction'
+
+const Counter = ({count, increment, decrement}) => {
+  return (
+    <div>
+        <h2>{count}</h2>
+        <button onClick={() => increment()} > ++ </button>
+        <button onClick={() => decrement()} > -- </button>
+    </div>
+  )
+}
+
+/**
+ *
+ * @param {redux state} state
+ * @param {component Props} ownProps
+ * @returns
+ */
+
+const mapStateToProps = (state, ownProps = {}) => {
+    return {
+       count: state.counterReducer.count
+    }
+}
+
+/**
+ *
+ * @param {redux dispatch func} dispatch
+ * @param {component Props} ownProps
+ * @returns
+ */
+
+const mapDispatchToProps = (dispatch, ownProps = {}) => {
+    return {
+        increment: () => dispatch(increment()),
+        decrement: () => dispatch(decrement())
+    }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(Counter)
+
+```
+
+#connect #redux #connectAPI
+
