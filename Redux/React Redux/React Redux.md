@@ -247,3 +247,23 @@ export default connect(mapStateToProps, mapDispatchToProps)(Counter)
 
 #connect #redux #connectAPI
 
+
+
+#### Redux Middleware
+
+```Javascript
+import { createStore, applyMiddleware } from 'redux';
+import { composeWithDevTools } from 'redux-devtools-extension';
+import thunk from 'redux-thunk';
+import rootReducer from "../rootReducer/rootReducer";
+
+
+const  myLogger = (store) => (next) => (action) =>{
+   return next(action)
+}
+
+export const store = createStore(rootReducer, composeWithDevTools(applyMiddleware(myLogger,thunk)))
+
+```
+
+#multiple-midleware 

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b92ef440999ed302",
+        "id": "dd5e7a3c484c50b4",
         "type": "tabs",
         "children": [
           {
-            "id": "9d0cdf6963cb7186",
+            "id": "54c1d23087bab011",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#connectAPI",
+                "query": "tag:#curry_function",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -148,11 +148,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9d0cdf6963cb7186",
+  "active": "54c1d23087bab011",
   "lastOpenFiles": [
-    "Redux/React Redux/Redux-toolkit.md",
+    "PHP/PHP Operators/PHP Operators.md",
     "Redux/React Redux/React Redux.md",
+    "javascript/functions.md",
+    "javascript",
     "Redux/Fundamentals of redux/Fundamentals of redux.md",
+    "PHP/PHP Fundamentals/PHP Fundamentals.md",
+    "PHP/PHP Type Casting/PHP Type Casting.md",
+    "PHP/PHP Operators",
+    "Redux/React Redux/Redux-toolkit.md",
     "Redux/How Redux works behind the scenes/How Redux works behind the scenes.md",
     "2023-12-02.md",
     "Untitled.md",
@@ -166,8 +172,6 @@
     "Redux/React Redux",
     "Redux/How Redux works behind the scenes",
     "2023-12-01.md",
-    "PHP/PHP Type Casting/PHP Type Casting.md",
-    "PHP/PHP Fundamentals/PHP Fundamentals.md",
     "shopify/Shopify.md",
     "shopify",
     "2023-11-29.md",
@@ -178,9 +182,7 @@
     "WordPress/CustomPostType",
     "WordPress",
     "Redux/Fundamentals of redux",
-    "Redux",
     "VibeTech/Vibetech.md",
-    "PHP/PHP Type Casting",
     "PHP/README.md",
     "PHP/PHP Fundamentals & PHP Data Types.md",
     "PHP/PHP Type Casting.md",
@@ -188,7 +190,6 @@
     "Untitled 2.canvas",
     "2023-11-17.md",
     "Untitled 1.canvas",
-    "Javascript.md",
-    "```javascript.md"
+    "Javascript.md"
   ]
 }

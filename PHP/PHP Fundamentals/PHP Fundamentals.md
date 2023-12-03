@@ -1,11 +1,14 @@
 
+- ` echo 'Show Something' ` print value
+- ` var_dump() `check in details information 
+
 # PHP Syntax 
 
 
 ```PHP 
   // php syntax 
-  <?php echo "Hello world"  ?>  // php with html
-  <?php echo "Hello world"   // php without html
+  <?php echo "Hello world"  ?>  // php inside html
+  <?php echo "Hello world"   // php outside html
   <?= "Hello world" ?> // sorthand without echo
 ```
  
@@ -136,6 +139,7 @@
 ```
 
 
-#arraydata
+#arraydata #array #php_array
+
 
 
