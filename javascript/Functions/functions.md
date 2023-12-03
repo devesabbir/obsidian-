@@ -19,7 +19,7 @@ const curryfunc = (a) => {
 }
 
 // calling curry function 
-curryfunc(2)(3)(4)(5)
+curryfunc(2)(3)(4)
 
 // convert any function to curry function 
  const curryConverter = (fn) => {
