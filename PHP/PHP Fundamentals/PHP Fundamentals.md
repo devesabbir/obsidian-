@@ -67,7 +67,8 @@
 
 # PHP var_dump and die
 
-- The `var_dump()` is a built-in function that allows you to dump the information about a variable. The `var_dump()` function accepts a variable and displays its type and value.
+- The `var_dump()` is a built-in function that allows you to dump the information about a variable.
+- The `var_dump()` function accepts a variable and displays its type and value.
 
 
 

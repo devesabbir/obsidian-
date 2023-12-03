@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redux/React Redux/React Redux.md",
+                "file": "javascript/Functions/functions.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Redux/React Redux/React Redux.md",
+                "file": "javascript/Functions/functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Redux/React Redux/React Redux.md",
+                "file": "javascript/Functions/functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Redux/React Redux/React Redux.md"
+                "file": "javascript/Functions/functions.md"
               }
             }
           }
@@ -150,12 +150,13 @@
   },
   "active": "54c1d23087bab011",
   "lastOpenFiles": [
+    "javascript/Functions",
+    "PHP/PHP Fundamentals/PHP Fundamentals.md",
     "PHP/PHP Operators/PHP Operators.md",
     "Redux/React Redux/React Redux.md",
-    "javascript/functions.md",
+    "javascript/Functions/functions.md",
     "javascript",
     "Redux/Fundamentals of redux/Fundamentals of redux.md",
-    "PHP/PHP Fundamentals/PHP Fundamentals.md",
     "PHP/PHP Type Casting/PHP Type Casting.md",
     "PHP/PHP Operators",
     "Redux/React Redux/Redux-toolkit.md",
@@ -189,7 +190,6 @@
     "github-profile/Untitled.md",
     "Untitled 2.canvas",
     "2023-11-17.md",
-    "Untitled 1.canvas",
-    "Javascript.md"
+    "Untitled 1.canvas"
   ]
 }
