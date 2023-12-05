@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#file_folder_creation",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -150,8 +151,8 @@
   },
   "active": "b3dc8c98e42f5486",
   "lastOpenFiles": [
-    "Untitled.md",
     "git/git-commands.md",
+    "Untitled.md",
     "javascript/Functions/functions.md",
     "javascript/Functions",
     "javascript",
