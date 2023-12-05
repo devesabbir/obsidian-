@@ -4,32 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "72a4aef59ab7fbda",
+        "id": "4155157c265d5223",
         "type": "tabs",
         "children": [
           {
-            "id": "993cdb3d17531d2c",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "311228db1ec6b6af",
+            "id": "b3dc8c98e42f5486",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PHP/PHP Operators/PHP Operators.md",
+                "file": "git/git-commands.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -95,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PHP/PHP Operators/PHP Operators.md",
+                "file": "git/git-commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PHP/PHP Operators/PHP Operators.md",
+                "file": "git/git-commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PHP/PHP Operators/PHP Operators.md"
+                "file": "git/git-commands.md"
               }
             }
           }
@@ -157,20 +148,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "311228db1ec6b6af",
+  "active": "b3dc8c98e42f5486",
   "lastOpenFiles": [
     "Untitled.md",
-    "PHP/PHP Operators/PHP Assignment Operators.md",
+    "git/git-commands.md",
     "javascript/Functions/functions.md",
     "javascript/Functions",
     "javascript",
     "Redux/React Redux/Redux-toolkit.md",
     "PHP/PHP Operators/PHP Operators.md",
-    "git",
     "PHP/PHP Operators/PHP OR Operator.md",
     "PHP/PHP Operators/PHP Comparison Operators.md",
     "PHP/PHP Operators/PHP AND Operator.md",
     "New Text Document.txt",
+    "PHP/PHP Operators/PHP Assignment Operators.md",
+    "git",
     "Redux/React Redux/React Redux.md",
     "PHP/PHP Fundamentals/PHP Fundamentals.md",
     "Redux/Fundamentals of redux/Fundamentals of redux.md",
@@ -196,7 +188,6 @@
     "New folder",
     "WordPress/CustomPostType/Untitled.md",
     "VibeTech/Vibetech.md",
-    "PHP/README.md",
     "Untitled 2.canvas",
     "Untitled 1.canvas"
   ]

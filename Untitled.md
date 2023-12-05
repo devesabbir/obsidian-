@@ -1,3 +1,0 @@
-```terminal
-# To stash the changes git stash # To see the list of stashes git stash list # To apply the most recent stash git stash apply # To apply a specific stash git stash apply stash@{<stashNumber>} # To remove the most recent stash git stash drop # To remove a specific stash git stash drop stash@{<stashNumber>} # To apply and remove the most recent stash git stash pop # To apply and remove a specific stash git stash pop stash@{<stashNumber>}
-```
