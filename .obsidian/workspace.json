@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "PHP/PHP Operators/PHP Operators.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "PHP/PHP Operators/PHP Operators.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "PHP/PHP Operators/PHP Operators.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "PHP/PHP Operators/PHP Operators.md"
               }
             }
           }
@@ -157,16 +157,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c4f9ee5cd1cd3b82",
+  "active": "311228db1ec6b6af",
   "lastOpenFiles": [
+    "Untitled.md",
+    "PHP/PHP Operators/PHP Assignment Operators.md",
     "javascript/Functions/functions.md",
     "javascript/Functions",
     "javascript",
     "Redux/React Redux/Redux-toolkit.md",
     "PHP/PHP Operators/PHP Operators.md",
-    "Untitled.md",
     "git",
-    "PHP/PHP Operators/PHP Assignment Operators.md",
     "PHP/PHP Operators/PHP OR Operator.md",
     "PHP/PHP Operators/PHP Comparison Operators.md",
     "PHP/PHP Operators/PHP AND Operator.md",
