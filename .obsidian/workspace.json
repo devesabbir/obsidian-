@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "dd5e7a3c484c50b4",
+        "id": "793b78b19c3106dc",
         "type": "tabs",
         "children": [
           {
-            "id": "54c1d23087bab011",
+            "id": "9714698700e3fc41",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "javascript/Functions/functions.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -49,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#curry_function",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "javascript/Functions/functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "javascript/Functions/functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "javascript/Functions/functions.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -148,13 +139,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "54c1d23087bab011",
+  "active": "c4f9ee5cd1cd3b82",
   "lastOpenFiles": [
+    "Redux/React Redux/React Redux.md",
+    "javascript/Functions/functions.md",
     "javascript/Functions",
     "PHP/PHP Fundamentals/PHP Fundamentals.md",
     "PHP/PHP Operators/PHP Operators.md",
-    "Redux/React Redux/React Redux.md",
-    "javascript/Functions/functions.md",
     "javascript",
     "Redux/Fundamentals of redux/Fundamentals of redux.md",
     "PHP/PHP Type Casting/PHP Type Casting.md",
@@ -182,7 +173,6 @@
     "WordPress/CustomPostType/Untitled.md",
     "WordPress/CustomPostType",
     "WordPress",
-    "Redux/Fundamentals of redux",
     "VibeTech/Vibetech.md",
     "PHP/README.md",
     "PHP/PHP Fundamentals & PHP Data Types.md",

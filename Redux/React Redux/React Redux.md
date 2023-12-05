@@ -245,8 +245,7 @@ export default connect(mapStateToProps, mapDispatchToProps)(Counter)
 
 ```
 
-#connect #redux #connectAPI
-
+#connect #redux #connectAPI 
 
 
 #### Redux Middleware
