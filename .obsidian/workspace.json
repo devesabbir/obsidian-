@@ -4,18 +4,32 @@
     "type": "split",
     "children": [
       {
-        "id": "793b78b19c3106dc",
+        "id": "72a4aef59ab7fbda",
         "type": "tabs",
         "children": [
           {
-            "id": "9714698700e3fc41",
+            "id": "993cdb3d17531d2c",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {}
             }
+          },
+          {
+            "id": "311228db1ec6b6af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +134,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Untitled.md"
+              }
             }
           }
         ],
@@ -141,19 +159,25 @@
   },
   "active": "c4f9ee5cd1cd3b82",
   "lastOpenFiles": [
-    "Redux/React Redux/React Redux.md",
     "javascript/Functions/functions.md",
     "javascript/Functions",
-    "PHP/PHP Fundamentals/PHP Fundamentals.md",
-    "PHP/PHP Operators/PHP Operators.md",
     "javascript",
+    "Redux/React Redux/Redux-toolkit.md",
+    "PHP/PHP Operators/PHP Operators.md",
+    "Untitled.md",
+    "git",
+    "PHP/PHP Operators/PHP Assignment Operators.md",
+    "PHP/PHP Operators/PHP OR Operator.md",
+    "PHP/PHP Operators/PHP Comparison Operators.md",
+    "PHP/PHP Operators/PHP AND Operator.md",
+    "New Text Document.txt",
+    "Redux/React Redux/React Redux.md",
+    "PHP/PHP Fundamentals/PHP Fundamentals.md",
     "Redux/Fundamentals of redux/Fundamentals of redux.md",
     "PHP/PHP Type Casting/PHP Type Casting.md",
     "PHP/PHP Operators",
-    "Redux/React Redux/Redux-toolkit.md",
     "Redux/How Redux works behind the scenes/How Redux works behind the scenes.md",
     "2023-12-02.md",
-    "Untitled.md",
     "Untitled.canvas",
     "README.md",
     "scroll-spy.md",
@@ -171,15 +195,9 @@
     "New folder/obsidian-",
     "New folder",
     "WordPress/CustomPostType/Untitled.md",
-    "WordPress/CustomPostType",
-    "WordPress",
     "VibeTech/Vibetech.md",
     "PHP/README.md",
-    "PHP/PHP Fundamentals & PHP Data Types.md",
-    "PHP/PHP Type Casting.md",
-    "github-profile/Untitled.md",
     "Untitled 2.canvas",
-    "2023-11-17.md",
     "Untitled 1.canvas"
   ]
 }
