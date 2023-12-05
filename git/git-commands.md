@@ -4,82 +4,99 @@
 
 Create a `.gitignore` file in your root directory
 
-## [](https://github.com/kenmueller/gitignore#ignoring-single-files)Ignoring single files
+##### Ignoring single files
 
 **Must specify filename and extension**
 
 ```shell
+# Must specify filename and extension
 example.txt
 ```
 
-## [](https://github.com/kenmueller/gitignore#keeping-single-files)Keeping single files
+##### Keeping single files
 
 ```shell
+# Keeping single files
 !example.txt
 ```
 
-## [](https://github.com/kenmueller/gitignore#multiple-files-with-the-same-extension)Multiple files with the same extension
+##### Multiple files with the same extension
 
 ```shell
+# Multiple files with the same extension
 *.txt
 ```
 
-## [](https://github.com/kenmueller/gitignore#multiple-files-with-the-same-name)Multiple files with the same name
+##### git not ignore specific file
+
+```bash 
+ # git not ignore specific file
+ *.log  
+!important.log
+```
+##### Multiple files with the same name
 
 ```shell
+# Multiple files with the same name
 example*
 ```
 
-## [](https://github.com/kenmueller/gitignore#folders)Folders
+##### Folders
 
 ```shell
+# Folders
 examples/
 ```
 
-## [](https://github.com/kenmueller/gitignore#files-inside-of-folders)Files inside of folders
+##### Files inside of folders
 
 **You can apply the same techniques for multiple files inside the root directory**
 
 ```shell
+# Files inside of folders
 examples/example.txt
 ```
 
-## [](https://github.com/kenmueller/gitignore#everything-inside-of-a-folder-except-for-some-files)Everything inside of a folder except for some files
+##### Everything inside of a folder except for some files
 
 **When first ignoring the whole folder, you must have a star at the end.**
 
 **The star means you are ignoring the files in the folder, while not having a star means that you are ignoring the whole folder**
 
 ```shell
+# Everything inside of a folder except for some files
 examples/*
 !examples/example.txt
 ```
 
-## [](https://github.com/kenmueller/gitignore#ignoring-files-in-every-directory)Ignoring files in every directory
+##### Ignoring files in every directory
 
 **This ignores all files named example.txt in every folder. You can use the same techniques for ignoring specific names or extensions with this syntax as well.**
 
 ```shell
+# Ignoring files in every directory
 **/example.txt
 ```
 
-## [](https://github.com/kenmueller/gitignore#ignoring-files-only-in-the-root-directory)Ignoring files only in the root directory
+##### Ignoring files only in the root directory
 
 **Must include a slash in the beginning**
 
 ```shell
+# Ignoring files only in the root directory
 /example.txt
 ```
 
-## [](https://github.com/kenmueller/gitignore#matching-many-characters)Matching many characters
+##### Matching many characters
 
 **This ignores files named `Example.txt` and `example.txt`. You can match against as many characters as you like at once.**
 
 ```shell
+# Matching many characters
 [Ee]xample.txt
 ```
 
- 
+
 
 ##### git stash
 
