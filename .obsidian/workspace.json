@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4155157c265d5223",
+        "id": "acf01d3db1d5fbea",
         "type": "tabs",
         "children": [
           {
-            "id": "b3dc8c98e42f5486",
+            "id": "e7f94e4274eee0a6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git/git-commands.md",
+                "file": "PHP/PHP Fundamentals/PHP Fundamentals.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "git/git-commands.md",
+                "file": "PHP/PHP Fundamentals/PHP Fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "git/git-commands.md",
+                "file": "PHP/PHP Fundamentals/PHP Fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "git/git-commands.md"
+                "file": "PHP/PHP Fundamentals/PHP Fundamentals.md"
               }
             }
           }
@@ -148,15 +148,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b3dc8c98e42f5486",
+  "active": "e7f94e4274eee0a6",
   "lastOpenFiles": [
+    "PHP/PHP Type Casting/PHP Type Casting.md",
+    "PHP/PHP Operators/PHP Operators.md",
     "git/git-commands.md",
     "Untitled.md",
     "javascript/Functions/functions.md",
     "javascript/Functions",
     "javascript",
     "Redux/React Redux/Redux-toolkit.md",
-    "PHP/PHP Operators/PHP Operators.md",
     "PHP/PHP Operators/PHP OR Operator.md",
     "PHP/PHP Operators/PHP Comparison Operators.md",
     "PHP/PHP Operators/PHP AND Operator.md",
@@ -166,7 +167,6 @@
     "Redux/React Redux/React Redux.md",
     "PHP/PHP Fundamentals/PHP Fundamentals.md",
     "Redux/Fundamentals of redux/Fundamentals of redux.md",
-    "PHP/PHP Type Casting/PHP Type Casting.md",
     "PHP/PHP Operators",
     "Redux/How Redux works behind the scenes/How Redux works behind the scenes.md",
     "2023-12-02.md",
