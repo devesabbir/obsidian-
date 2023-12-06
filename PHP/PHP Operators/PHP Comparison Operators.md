@@ -139,3 +139,4 @@ If the lefthand value is less than or equal to the righthand value, the less tha
 ?>
 ```
 
+#php #php-comparison-operator  

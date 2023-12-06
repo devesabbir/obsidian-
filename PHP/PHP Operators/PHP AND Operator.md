@@ -68,3 +68,4 @@ If you change the `$debug` to `true`, you’ll see a message in the output:
 Output:
 `PHP and operator demo!`
 
+#php  #php-and-operator  

@@ -50,6 +50,7 @@ However, if you change the `$expired` to `false`, the result will be `false`
 
 In practice, you often use the logical OR operator in the [if](https://www.phptutorial.net/php-tutorial/php-if/), [if-else](https://www.phptutorial.net/php-tutorial/php-if-else/), [if-elseif](https://www.phptutorial.net/php-tutorial/php-if-elseif/), [while](https://www.phptutorial.net/php-tutorial/php-while/), and [do-while](https://www.phptutorial.net/php-tutorial/php-do-while/) statements.
 
+#php-or-operator
 ## Short-circuiting
 
 When the first operand is `true`, the logical OR operator knows that the result must be also `true`. In this case, it doesn’t evaluate the second operand. This process is called short-circuiting.
@@ -72,4 +73,62 @@ Output:
 `Cannot connect to the database`
 
 In this example, the `connect_to_db()` function returns `false`, PHP calls the `die()` function that shows the error message.
+
+#short-circuiting
+
+## The PHP OR gotchas
+
+See the following example:
+
+```php
+<?php 
+	$result = false or true; 
+	var_dump($result);
+?>
+```
+
+Output:
+`bool(false)`
+
+In this example, you would expect that the $result is true because false or true expression returns true. However, it is not the case.
+When evaluating the following statement:
+```php
+$result = false or true;
+```
+PHP evaluates the `$result = false` first and then the `or` operator second because the `=` operator has higher precedence than the `or` operator.
+
+Technically, it is equivalent to the following:
+
+```php
+($result = false) or true;
+```
+Therefore, `$result` is assigned the `false` value.
+
+To fix this, you need to use parentheses to change the order of evaluation:
+
+```php
+<?php 
+	$result = (false or true); 
+	var_dump($result);
+?>
+```
+
+Output:
+`bool(true)`
+
+Or you can use the || operator:
+
+```php
+<?php 
+	$result = false || true; 
+	var_dump($result);
+?>
+```
+
+Output:
+`bool(true)`
+Therefore, it’s a good practice to always use the `||` operator instead of the `or` operator.
+
+#php-or-gotchas
+
 
