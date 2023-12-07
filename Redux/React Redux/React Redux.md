@@ -1,6 +1,7 @@
 #### Packages 
 1. Redux
 2. react-redux 
+3. thunk
 
 ##### Folder Structure 
 
@@ -256,7 +257,7 @@ import { composeWithDevTools } from 'redux-devtools-extension';
 import thunk from 'redux-thunk';
 import rootReducer from "../rootReducer/rootReducer";
 
-
+// Custom Middleware 
 const  myLogger = (store) => (next) => (action) =>{
    return next(action)
 }
@@ -265,4 +266,4 @@ export const store = createStore(rootReducer, composeWithDevTools(applyMiddlewar
 
 ```
 
-#multiple-midleware 
+#multiple-midleware #Custom_middleware #redux 

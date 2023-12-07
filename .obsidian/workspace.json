@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "acf01d3db1d5fbea",
+        "id": "2b9c00719f111ad8",
         "type": "tabs",
         "children": [
           {
-            "id": "e7f94e4274eee0a6",
+            "id": "5d99a82881145eb6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PHP/PHP Fundamentals/PHP Fundamentals.md",
+                "file": "express-server/Mongoose Schema.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#file_folder_creation",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PHP/PHP Fundamentals/PHP Fundamentals.md",
+                "file": "express-server/Mongoose Schema.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PHP/PHP Fundamentals/PHP Fundamentals.md",
+                "file": "express-server/Mongoose Schema.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PHP/PHP Fundamentals/PHP Fundamentals.md"
+                "file": "express-server/Mongoose Schema.md"
               }
             }
           }
@@ -148,24 +148,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e7f94e4274eee0a6",
+  "active": "5d99a82881145eb6",
   "lastOpenFiles": [
-    "PHP/PHP Type Casting/PHP Type Casting.md",
-    "PHP/PHP Operators/PHP Operators.md",
-    "git/git-commands.md",
-    "Untitled.md",
+    "express-server/Express-server.md",
+    "express-server/Mongoose Schema.md",
+    "Redux/React Redux/React Redux.md",
+    "express-server",
+    "PHP/PHP Operators/PHP OR Operator.md",
     "javascript/Functions/functions.md",
     "javascript/Functions",
     "javascript",
-    "Redux/React Redux/Redux-toolkit.md",
-    "PHP/PHP Operators/PHP OR Operator.md",
-    "PHP/PHP Operators/PHP Comparison Operators.md",
-    "PHP/PHP Operators/PHP AND Operator.md",
-    "New Text Document.txt",
-    "PHP/PHP Operators/PHP Assignment Operators.md",
+    "git/git-commands.md",
     "git",
-    "Redux/React Redux/React Redux.md",
+    "Redux/React Redux/Redux-toolkit.md",
+    "PHP/PHP Operators/PHP Comparison Operators.md",
+    "PHP/PHP Operators/PHP Assignment Operators.md",
+    "PHP/PHP Operators/PHP AND Operator.md",
     "PHP/PHP Fundamentals/PHP Fundamentals.md",
+    "PHP/PHP Operators/PHP Operators.md",
+    "PHP/PHP Operators/PHP NOT Operator.md",
+    "New Text Document.txt",
+    "PHP/PHP Type Casting/PHP Type Casting.md",
+    "Untitled.md",
     "Redux/Fundamentals of redux/Fundamentals of redux.md",
     "PHP/PHP Operators",
     "Redux/How Redux works behind the scenes/How Redux works behind the scenes.md",
@@ -185,9 +189,6 @@
     "2023-11-29.md",
     "New folder/obsidian-/README.md",
     "New folder/obsidian-",
-    "New folder",
-    "WordPress/CustomPostType/Untitled.md",
-    "VibeTech/Vibetech.md",
     "Untitled 2.canvas",
     "Untitled 1.canvas"
   ]
