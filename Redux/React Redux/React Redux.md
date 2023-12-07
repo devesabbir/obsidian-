@@ -12,60 +12,43 @@ src
 |   |-- Component1
 |   |   |-- index.js
 |   |   |-- styles.css
-|   |
 |   |-- Component2
 |       |-- index.js
 |       |-- styles.css
-|
 |-- containers
 |   |-- Container1
 |   |   |-- index.js
 |   |   |-- styles.css
-|   |
 |   |-- Container2
 |       |-- index.js
 |       |-- styles.css
-|
 |-- redux
 |   |-- feature1
 |   |     |-- actions
 |   |     |    |-- index.js
 |   |     |    |-- types.js
-|   |     | 
-|   |     | 
 |   |     |-- reducers
 |   |         |-- index.js
 |   |         |-- reducer.js         
-|   |
 |   |-- feature2
 |   |   |-- actions
 |   |   |   |-- index.js
 |   |   |   |-- types.js
-|   |   |
 |   |   |-- reducers
 |   |       |-- index.js
 |   |       |-- reducer.js
-|   |
-|   |
 |   |-- rootReducer
 |   |   |-- rootReducer.js
-|   |
 |   |-- store
 |       |-- configureStore.js
-|
 |-- App.js
 |-- index.js
 |-- index.css
 |-- serviceWorker.js
-|
 |-- assets
-|
 |-- utils
-|
 |-- constants
-|
 |-- routes
-|
 |-- tests
 
 ```

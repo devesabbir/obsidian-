@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "express-server/Mongoose Schema.md",
+                "file": "express-server/Express-server.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c1d225b62ec6e30f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Redux/React Redux/React Redux.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "express-server/Mongoose Schema.md",
+                "file": "express-server/Express-server.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "express-server/Mongoose Schema.md",
+                "file": "express-server/Express-server.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "express-server/Mongoose Schema.md"
+                "file": "express-server/Express-server.md"
               }
             }
           }
@@ -150,9 +163,10 @@
   },
   "active": "5d99a82881145eb6",
   "lastOpenFiles": [
+    "Redux/React Redux/React Redux.md",
     "express-server/Express-server.md",
     "express-server/Mongoose Schema.md",
-    "Redux/React Redux/React Redux.md",
+    "Redux/Fundamentals of redux/Fundamentals of redux.md",
     "express-server",
     "PHP/PHP Operators/PHP OR Operator.md",
     "javascript/Functions/functions.md",
@@ -170,7 +184,6 @@
     "New Text Document.txt",
     "PHP/PHP Type Casting/PHP Type Casting.md",
     "Untitled.md",
-    "Redux/Fundamentals of redux/Fundamentals of redux.md",
     "PHP/PHP Operators",
     "Redux/How Redux works behind the scenes/How Redux works behind the scenes.md",
     "2023-12-02.md",

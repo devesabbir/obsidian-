@@ -3,6 +3,7 @@
 
 - `express` (The web framework for Node.js that simplifies the creation of web applications)
 - `mongoose` (MongoDB object modeling tool designed to work in an asynchronous environment)
+- `bcryptjs`(bcryptjs is a JavaScript library that provides hashing functions based on the bcrypt hashing algorithm)
 - `nodemon` (Monitors for changes and automatically restarts the server during development) 
 - `morgan ` (HTTP request logger middleware for Node.js)
 - `dotenv`  (Loads environment variables from a `.env` file into `process.env`)
@@ -18,37 +19,41 @@
 #Express-server #Backend #Packages_for_backend
 
 
-## Folder Structure (MVC)
+#### Folder Structure (MVC)
 
 ```javascript 
-  /project-root
-  /node_modules
-  /public
-    /css
-    /js
-    /images
-  /views
-  /routes
-    index.js
-    users.js
-  /controllers
-    indexController.js
-    userController.js
-  /models
-    userModel.js
-  /config
-    config.js
-  /middlewares
-    authentication.js
-  /utils
-    helperFunctions.js
-  /tests
-    testFile.js
-  app.js
-  package.json
-  package-lock.json
+|-- node_modules
+|-- public
+|   |-- css
+|   |-- js
+|   |-- images
+|-- src
+|	|-- views
+|	|-- routes
+|	|   |-- index.js
+|	|   |-- users.js
+|	|-- controllers
+|	|   |-- indexController.js
+|	|   |-- userController.js
+|	|-- models
+|	|   |-- userModel.js
+|	|-- config
+|	|   |--config.js
+|	|-- middlewares
+|	|   |-- authentication.js
+|	|-- utils
+|	|   |-- helperFunctions.js
+|	|-- tests
+|	|   |-- testFile.js
+|	|-- app.js
+|-- server.js
+|-- package.json
+|-- package-lock.json
 
 ```
 
 
 #project_structure #Express_Folder_Structure
+
+
+#### Process 
