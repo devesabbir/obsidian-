@@ -59,3 +59,32 @@
 
 
 #### Process 
+
+###### MERN stack E-commerce project
+
+  
+- Enviroment setup
+- Express server setup
+- API testing with Postman
+- Middleware & Types of Middleware
+- Express Error Handling Middleware → body-parser
+- How to handle HTTP errors → http-errors
+- How to secure API →→xss-clean, express-rate-limit
+- Environment variable & .gitignore 16 12. MVC Architecture
+- connect to MongoDB databse 18 14. Schema & Model for User
+- create seed route for testing
+- GET /api/users →isAdmin →getAllUsers → searchByNAME + pagination functionality
+- responseHandler controller for error or success
+
+  
+  
+
+## Packages
+
+  
+
+```shell
+
+  #express #nodemon #morgan
+
+```
