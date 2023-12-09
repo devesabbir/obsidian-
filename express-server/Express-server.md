@@ -22,6 +22,8 @@
 #### Folder Structure (MVC)
 
 ```javascript 
+// Folder Structure for redux react-redux
+
 |-- node_modules
 |-- public
 |   |-- css
