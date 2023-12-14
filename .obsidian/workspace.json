@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "express-server/Express-server.md",
+                "file": "git/GitHub Pages.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "express-server/Express-server.md",
+                "file": "git/GitHub Pages.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "express-server/Express-server.md",
+                "file": "git/GitHub Pages.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "express-server/Express-server.md"
+                "file": "git/GitHub Pages.md"
               }
             }
           }
@@ -150,10 +150,11 @@
   },
   "active": "9a594d21110c8820",
   "lastOpenFiles": [
+    "express-server/Express-server.md",
+    "git/GitHub Pages.md",
     "Redux/Fundamentals of redux/Fundamentals of redux.md",
     "WordPress/Custom Post Type.md",
     "mongoose/Mongoose Cheatsheet.md",
-    "express-server/Express-server.md",
     "Redux/React Redux/React Redux.md",
     "javascript/Functions/functions.md",
     "express-server/Mongoose Schema.md",
@@ -188,7 +189,6 @@
     "2023-12-01.md",
     "shopify/Shopify.md",
     "shopify",
-    "2023-11-29.md",
     "Untitled 2.canvas",
     "Untitled 1.canvas"
   ]
