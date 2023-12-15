@@ -1,7 +1,7 @@
 
 # Version Controller 
 
-#### Git Configuration 
+#### git configuration 
 
 ```shell
  # For check confg list
@@ -17,7 +17,29 @@
 
 #git #github #git-config
 
-### Git Commands
+##### file-folder creation
+
+
+```bash
+
+ # To make Directory
+  mkdir [directoryname]
+ # To remove directory 
+  rmdir [directoryname]
+ # To rename directory 
+  mv [old_name] [new_name]
+  # To create a new file 
+  touch [filename.txt]
+ # To Rename File 
+  mv [filename.txt] [newname.txt]
+ # To Delete file 
+  rm [filename.xt]
+```
+
+
+#git #file_folder_creation
+
+####  git initialize commands
 
 
 ```shell
@@ -62,6 +84,60 @@ git remote add vercel <url>
 
 #git #git-commands #git-basic-commands 
 
+#### git branch
+
+```shell
+# Show all branch
+git branch --list
+
+# Create new branch 
+git branch dev/sabbir
+
+# Switch to branch
+git switch dev/sabbir
+
+# Switch to branch
+git checkout main
+
+# Create new branch and switch immediately
+git checkout -b <branch name>
+
+# Merge to another branch
+git merge dev/sabbir
+
+# Delete branch (commited required)
+git branch -d <branch name>
+
+# Delete branch (without committed)
+git branch -D <branch name>
+
+# Rename/Modify branch name
+git branch -m <rename branch>
+
+```
+
+#### git Log & Reset
+
+
+```shell 
+# Git Log
+git log
+
+# Git Log in One Line
+git log --oneline
+
+# git reflog
+git reflog
+
+# git reset as committed history
+git reset --hard <commited id>
+
+# git remove file (untracked)
+ git rm <filename.txt>
+
+```
+
+#git #git-log #git-reset
 
 ##### git stash
 
@@ -100,61 +176,8 @@ git remote add vercel <url>
   
 ```
 
-
 #git #stash
 
-
-#### Git Log & Reset
-
-
-```shell 
-# Git Log
-git log
-
-# Git Log in One Line
-git log --oneline
-
-# git reflog
-git reflog
-
-# git reset as committed history
-git reset --hard <commited id>
-
-
-```
-
-#git #git-log #git-reset
-
-#### Git Remove
-
-```shell
-# git remove
-git rm <filename.txt>
-
-```
-
-
-##### File-Folder Creation
-
-
-```bash
-
- # To make Directory
-  mkdir [directoryname]
- # To remove directory 
-  rmdir [directoryname]
- # To rename directory 
-  mv [old_name] [new_name]
-  # To create a new file 
-  touch [filename.txt]
- # To Rename File 
-  mv [filename.txt] [newname.txt]
- # To Delete file 
-  rm [filename.xt]
-```
-
-
-#git #file_folder_creation
 
 ##### `.gitignore`
 

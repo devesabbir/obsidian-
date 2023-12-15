@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vi Editor (Terminal Editor)/Vi Commands.md",
+                "file": "GitHub & Git/GitHub & Git.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vi Editor (Terminal Editor)/Vi Commands.md",
+                "file": "GitHub & Git/GitHub & Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Vi Editor (Terminal Editor)/Vi Commands.md",
+                "file": "GitHub & Git/GitHub & Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Vi Editor (Terminal Editor)/Vi Commands.md"
+                "file": "GitHub & Git/GitHub & Git.md"
               }
             }
           }
@@ -150,8 +150,8 @@
   },
   "active": "3cf11d5d11f36fda",
   "lastOpenFiles": [
-    "GitHub & Git/GitHub & Git.md",
     "Vi Editor (Terminal Editor)/Vi Commands.md",
+    "GitHub & Git/GitHub & Git.md",
     "Vi Editor (Terminal Editor)",
     "GitHub & Git/GitHub Pages.md",
     "express-server/Express-server.md",
