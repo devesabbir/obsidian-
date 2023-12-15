@@ -1,5 +1,62 @@
+
+# Version Controller 
+
+#### Git Configuration 
+
+```shell
+ # For check confg list
+ git config --list
+
+ git config --global user.name "devesabbir"
+ git config --global user.email "devssabbir@gmail.com"
+ 
+```
+
+
+
+#git #github #git-config
+
 ### Git Commands
 
+
+```shell
+ # To initialize git
+ git init
+
+ # check status
+ git status
+
+ # Add changes to git
+ git add .
+
+# commit all changes to git 
+ git commit -m "message"
+
+# remote checking
+git remote
+
+# git add remote 
+git remote add origin <url>
+
+# git add remote 
+git remote add vercel <url>
+
+# To push
+ git push origin main
+
+# To push
+ git push vercel main
+
+# Clone existing repo
+ git clone <url>
+
+# Git Pull 
+ git pull
+
+```
+
+
+#git #git-commands #git-basic-commands 
 ##### `.gitignore`
 
 Create a `.gitignore` file in your root directory

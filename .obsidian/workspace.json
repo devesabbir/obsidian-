@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "54c015b8fc11ae10",
+        "id": "c64b3e92ed391bcd",
         "type": "tabs",
         "children": [
           {
-            "id": "9a594d21110c8820",
+            "id": "3cf11d5d11f36fda",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git/GitHub Pages.md",
+                "file": "GitHub & Git/GitHub & Git.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "git/GitHub Pages.md",
+                "file": "GitHub & Git/GitHub & Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "git/GitHub Pages.md",
+                "file": "GitHub & Git/GitHub & Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "git/GitHub Pages.md"
+                "file": "GitHub & Git/GitHub & Git.md"
               }
             }
           }
@@ -148,10 +148,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c4f9ee5cd1cd3b82",
+  "active": "3cf11d5d11f36fda",
   "lastOpenFiles": [
+    "GitHub & Git/GitHub Pages.md",
+    "GitHub & Git/GitHub & Git.md",
     "express-server/Express-server.md",
-    "git/GitHub Pages.md",
     "Redux/Fundamentals of redux/Fundamentals of redux.md",
     "WordPress/Custom Post Type.md",
     "mongoose/Mongoose Cheatsheet.md",
@@ -163,8 +164,7 @@
     "PHP/PHP Operators/PHP OR Operator.md",
     "javascript/Functions",
     "javascript",
-    "git/git-commands.md",
-    "git",
+    "GitHub & Git",
     "Redux/React Redux/Redux-toolkit.md",
     "PHP/PHP Operators/PHP Comparison Operators.md",
     "PHP/PHP Operators/PHP Assignment Operators.md",
