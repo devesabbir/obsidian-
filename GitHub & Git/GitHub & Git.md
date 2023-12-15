@@ -116,6 +116,8 @@ git branch -m <rename branch>
 
 ```
 
+#git #git-branch 
+
 #### git Log & Reset
 
 
@@ -132,8 +134,11 @@ git reflog
 # git reset as committed history
 git reset --hard <commited id>
 
-# git remove file (untracked)
+# git remove file (untracked & delete)
  git rm <filename.txt>
+
+# git remove tracking from committed
+git rm --cached <file.txt>
 
 ```
 
@@ -275,5 +280,5 @@ examples/*
 [Ee]xample.txt
 ```
 
-
+#git #git-ignore
 
