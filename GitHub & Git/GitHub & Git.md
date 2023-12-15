@@ -7,6 +7,7 @@
  # For check confg list
  git config --list
 
+# Set git configuration 
  git config --global user.name "devesabbir"
  git config --global user.email "devssabbir@gmail.com"
  
@@ -20,6 +21,9 @@
 
 
 ```shell
+
+ # to check present working directory
+ pwd
  # To initialize git
  git init
 
@@ -57,6 +61,101 @@ git remote add vercel <url>
 
 
 #git #git-commands #git-basic-commands 
+
+
+##### git stash
+
+```bash
+
+ # To check stash list
+   git stash list
+   
+# To stash the changes
+   git stash 
+   
+ # To updated stash with messages
+   git stash push -m "any messages"
+   
+ # To apply the most recent stash 
+   git stash apply
+  
+  # To apply a specific stash 
+   git stash apply [index]
+
+  # To apply and remove the most recent stash 
+   git stash pop 
+   
+  # To apply and remove a specific stash 
+   git stash pop [index]
+   
+  # To remove most recent stash 
+   git stash drop 
+
+  # To remove a specific stash 
+   git stash drop [index]
+
+  # To clear stash list
+   git stash clear
+
+  
+```
+
+
+#git #stash
+
+
+#### Git Log & Reset
+
+
+```shell 
+# Git Log
+git log
+
+# Git Log in One Line
+git log --oneline
+
+# git reflog
+git reflog
+
+# git reset as committed history
+git reset --hard <commited id>
+
+
+```
+
+#git #git-log #git-reset
+
+#### Git Remove
+
+```shell
+# git remove
+git rm <filename.txt>
+
+```
+
+
+##### File-Folder Creation
+
+
+```bash
+
+ # To make Directory
+  mkdir [directoryname]
+ # To remove directory 
+  rmdir [directoryname]
+ # To rename directory 
+  mv [old_name] [new_name]
+  # To create a new file 
+  touch [filename.txt]
+ # To Rename File 
+  mv [filename.txt] [newname.txt]
+ # To Delete file 
+  rm [filename.xt]
+```
+
+
+#git #file_folder_creation
+
 ##### `.gitignore`
 
 Create a `.gitignore` file in your root directory
@@ -155,64 +254,3 @@ examples/*
 
 
 
-##### git stash
-
-```bash
-
- # To check stash list
-   git stash list
-   
-# To stash the changes
-   git stash 
-   
- # To updated stash with messages
-   git stash push -m "any messages"
-   
- # To apply the most recent stash 
-   git stash apply
-  
-  # To apply a specific stash 
-   git stash apply [index]
-
-  # To apply and remove the most recent stash 
-   git stash pop 
-   
-  # To apply and remove a specific stash 
-   git stash pop [index]
-   
-  # To remove most recent stash 
-   git stash drop 
-
-  # To remove a specific stash 
-   git stash drop [index]
-
-  # To clear stash list
-   git stash clear
-
-  
-```
-
-
-#git #stash
-
-##### File-Folder Creation
-
-
-```bash
-
- # To make Directory
-  mkdir [directoryname]
- # To remove directory 
-  rmdir [directoryname]
- # To rename directory 
-  mv [old_name] [new_name]
-  # To create a new file 
-  touch [filename.txt]
- # To Rename File 
-  mv [filename.txt] [newname.txt]
- # To Delete file 
-  rm [filename.xt]
-```
-
-
-#git #file_folder_creation
