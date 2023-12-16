@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c64b3e92ed391bcd",
+        "id": "c2dad10b66131604",
         "type": "tabs",
         "children": [
           {
-            "id": "3cf11d5d11f36fda",
+            "id": "07948ca5b0012c87",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -148,7 +148,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3cf11d5d11f36fda",
+  "active": "c4f9ee5cd1cd3b82",
   "lastOpenFiles": [
     "GitHub & Git/GitHub & Git.md",
     "Vi Editor (Terminal Editor)/Vi Commands.md",
