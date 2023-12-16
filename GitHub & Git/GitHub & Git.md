@@ -13,6 +13,13 @@
  
 ```
 
+#### git ssh method
+
+```shell
+# generate ssh-key in windows os
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+```
 
 
 #git #github #git-config
@@ -65,12 +72,12 @@ git remote
 git remote add origin <url>
 
 # git add remote 
-git remote add vercel <url>
+git remote add vercel <another-url>
 
-# To push
+# To push  
  git push origin main
 
-# To push
+# To push on vercel
  git push vercel main
 
 # Clone existing repo
@@ -81,8 +88,7 @@ git remote add vercel <url>
 
 ```
 
-
-#git #git-commands #git-basic-commands 
+#git #git-commands #git-basic-commands #git-push
 
 #### git branch
 
@@ -114,6 +120,9 @@ git branch -D <branch name>
 # Rename/Modify branch name
 git branch -m <rename branch>
 
+# Rename/Modify branch name (Forces a rename of the branch even if the new branch name already exists.)
+git branch -M <rename branch>
+
 ```
 
 #git #git-branch 
@@ -142,7 +151,8 @@ git rm --cached <file.txt>
 
 ```
 
-#git #git-log #git-reset
+#git #git-log #git-reset #git-rm
+
 
 ##### git stash
 
@@ -183,6 +193,60 @@ git rm --cached <file.txt>
 
 #git #stash
 
+
+#### git fork
+
+In Git, a "fork" typically refers to a copy of a repository that is made by a user (or organization) on a hosting service, usually to propose changes to someone else's project or to use someone else's project as a starting point for your own work. Forking a repository is commonly associated with platforms like GitHub, GitLab, and Bitbucket.
+
+Here's how the process generally works:
+
+1. **Creating a Fork:**
+    
+    - You find a project on a Git hosting service that you're interested in.
+    - You fork the project, creating your copy of the repository.
+2. **Making Changes:**
+    
+    - You make changes to your forked repository, typically in a branch.
+    - You can push these changes to your forked repository.
+3. **Creating a Pull Request:**
+    
+    - If you want to contribute your changes back to the original project, you create a pull request.
+    - The pull request is a way of proposing your changes to the original project.
+4. **Review and Merge:**
+    
+    - The owner of the original project (or someone with the necessary permissions) reviews your changes.
+    - If they approve, they can merge your changes into the original project.
+
+Forking is commonly used in open-source development. It allows contributors to work on changes independently, without directly affecting the original project. It also makes it easier for maintainers to review and manage contributions.
+
+Here is a brief example using GitHub:
+
+1. **Forking a Repository:**
+    
+    - Visit the GitHub repository you want to fork.
+    - Click the "Fork" button in the upper right corner of the GitHub page.
+    - This creates a copy of the repository under your GitHub account.
+2. **Clone Your Fork:**
+    
+    - Clone your forked repository to your local machine using `git clone`.
+3. **Make Changes:**
+    
+    - Create a new branch (`git checkout -b feature-branch`) and make your changes.
+4. **Push Changes:**
+    
+    - Push your changes to your fork on GitHub (`git push origin feature-branch`).
+5. **Create a Pull Request:**
+    
+    - On GitHub, navigate to your forked repository.
+    - GitHub will usually prompt you to create a pull request for the branch you just pushed.
+6. **Review and Merge:**
+    
+    - The maintainers of the original repository review your changes and, if they are satisfied, merge them into the main project.
+
+Keep in mind that the exact steps might vary slightly depending on the hosting service (GitHub, GitLab, Bitbucket, etc.) you are using.
+
+
+#git #git-fork
 
 ##### `.gitignore`
 
