@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c2dad10b66131604",
+        "id": "65ffda97167b6aeb",
         "type": "tabs",
         "children": [
           {
-            "id": "07948ca5b0012c87",
+            "id": "a71c2f0f3c2418dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GitHub & Git/GitHub & Git.md",
+                "file": "tailwind-css/README.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#git-branch",
+                "query": "tag:#howReduxWorks",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GitHub & Git/GitHub & Git.md",
+                "file": "tailwind-css/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GitHub & Git/GitHub & Git.md",
+                "file": "tailwind-css/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GitHub & Git/GitHub & Git.md"
+                "file": "tailwind-css/README.md"
               }
             }
           }
@@ -148,17 +148,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c4f9ee5cd1cd3b82",
+  "active": "a71c2f0f3c2418dc",
   "lastOpenFiles": [
+    "tailwind-css/README.md",
+    "tailwind-css",
+    "Redux/How Redux works behind the scenes/How Redux works behind the scenes.md",
+    "Redux/React Redux/React Redux.md",
     "GitHub & Git/GitHub & Git.md",
+    "GitHub & Git/GitHub Pages.md",
     "Vi Editor (Terminal Editor)/Vi Commands.md",
     "Vi Editor (Terminal Editor)",
-    "GitHub & Git/GitHub Pages.md",
     "express-server/Express-server.md",
     "Redux/Fundamentals of redux/Fundamentals of redux.md",
     "WordPress/Custom Post Type.md",
     "mongoose/Mongoose Cheatsheet.md",
-    "Redux/React Redux/React Redux.md",
     "javascript/Functions/functions.md",
     "express-server/Mongoose Schema.md",
     "mongoose",
@@ -178,7 +181,6 @@
     "PHP/PHP Type Casting/PHP Type Casting.md",
     "Untitled.md",
     "PHP/PHP Operators",
-    "Redux/How Redux works behind the scenes/How Redux works behind the scenes.md",
     "2023-12-02.md",
     "Untitled.canvas",
     "README.md",
@@ -187,7 +189,6 @@
     "Pasted image 20231127173319.png",
     "READMEFF.md",
     "Redux/React Redux",
-    "Redux/How Redux works behind the scenes",
     "Untitled 2.canvas",
     "Untitled 1.canvas"
   ]
