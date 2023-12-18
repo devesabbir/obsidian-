@@ -80,6 +80,9 @@ git remote add vercel <another-url>
 # To push on vercel
  git push vercel main
 
+# To remove remote
+git remote rm vercel
+
 # Clone existing repo
  git clone <url>
 
@@ -315,6 +318,15 @@ examples/example.txt
 # Everything inside of a folder except for some files
 examples/*
 !examples/example.txt
+```
+
+##### Ignoring folder in any level or depth within the project directory.
+
+**This ignores all folder named example in any level or depth within the project directory.**
+
+```shell
+# Ignoring folder in every directory
+**/example
 ```
 
 ##### Ignoring files in every directory

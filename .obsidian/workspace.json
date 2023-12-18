@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "65ffda97167b6aeb",
+        "id": "ba17ba07634f721e",
         "type": "tabs",
         "children": [
           {
-            "id": "a71c2f0f3c2418dc",
+            "id": "697f52b1c2735ac2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -148,15 +148,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a71c2f0f3c2418dc",
+  "active": "697f52b1c2735ac2",
   "lastOpenFiles": [
+    "GitHub & Git/GitHub & Git.md",
     "tailwind-css/README.md",
+    "Vi Editor (Terminal Editor)/Vi Commands.md",
+    "GitHub & Git/GitHub Pages.md",
     "tailwind-css",
     "Redux/How Redux works behind the scenes/How Redux works behind the scenes.md",
     "Redux/React Redux/React Redux.md",
-    "GitHub & Git/GitHub & Git.md",
-    "GitHub & Git/GitHub Pages.md",
-    "Vi Editor (Terminal Editor)/Vi Commands.md",
     "Vi Editor (Terminal Editor)",
     "express-server/Express-server.md",
     "Redux/Fundamentals of redux/Fundamentals of redux.md",
