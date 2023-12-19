@@ -86,3 +86,63 @@ npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
 # run this command in terminal
  npm run tail
 ```
+
+
+##### @apply directive
+
+
+```css 
+  /* group utilites */
+
+.card-container {
+    @apply sm:flex sm:items-center sm:gap-x-2 bg-slate-200 dark:bg-slate-700 dark:text-teal-50 max-h-[300px] w-[300px] border-2 border-sky-500 rounded-md p-6 sm:p-3 shadow-md;
+    @apply sm:gap-x-10
+
+}
+```
+
+
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+%% Customize Base Style %%
+@layer base {
+    h1 {
+      @apply text-2xl;
+    }
+    h2 {
+      @apply text-xl
+    }
+  }
+
+
+%% Create Components %%
+  @layer components {
+    .btn-blue {
+      @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2         px-4 rounded;
+    }
+   
+   .card-container {
+    @apply sm:flex sm:items-center sm:gap-x-2 bg-slate-200 dark:bg-        slate-700 dark:text-teal-50 max-h-[300px] w-[300px] border-2           border-sky-500 rounded-md p-6 sm:p-3 shadow-md;
+
+}
+
+  }
+
+
+%% Create Custom Utilities Class %%
+
+  @layer utilities {
+    @variants hover, focus {
+      .filter-none {
+        filter: none;
+      }
+      .filter-grayscale {
+        filter: grayscale(100%);
+      }
+    }
+  }
+```
+
