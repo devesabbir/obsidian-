@@ -14,7 +14,9 @@
 - `helmet` Helps secure Express apps by setting various HTTP headers
 - `cookie-parser` Middleware for parsing cookies attached to the client's request object
 - `compression` Middleware to compress responses, improving performance
-- `jsonwebtoken` package in Node.js, which is commonly used for working with JSON Web Tokens (JWT)
+- `jsonwebtoken` package in Node.js, which is commonly used for working with 
+- `nodemailer`  is a module for Node.js that allows you to send emails easily. It is often used in web development projects to incorporate email functionality, such as sending verification `emails, password reset emails, or notifications.`
+- `multer` is a Node.js middleware for handling `multipart/form-data`, which is used for uploading files.
 
 #Express-server #Backend #Packages_for_backend
 
