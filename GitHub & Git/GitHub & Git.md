@@ -65,6 +65,9 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 # commit all changes to git 
  git commit -m "message"
 
+# git add and commit all
+git commit -am "<commit message>"
+
 # remote checking
 git remote
 
