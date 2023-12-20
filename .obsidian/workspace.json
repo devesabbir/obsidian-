@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d845572009832049",
+        "id": "c584c0faa6ce9d02",
         "type": "tabs",
         "children": [
           {
-            "id": "cf015e1babc792a1",
+            "id": "6752c5bfd2c007d5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "express-server/Express-server.md",
+                "file": "tailwind-css/TailwindV2.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "express-server/Express-server.md",
+                "file": "tailwind-css/TailwindV2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "express-server/Express-server.md",
+                "file": "tailwind-css/TailwindV2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "express-server/Express-server.md"
+                "file": "tailwind-css/TailwindV2.md"
               }
             }
           }
@@ -148,14 +148,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cf015e1babc792a1",
+  "active": "6752c5bfd2c007d5",
   "lastOpenFiles": [
-    "README.md",
+    "tailwind-css/TailwindV3.0.md",
+    "Untitled.md",
+    "tailwind-css/TailwindV2.md",
+    "Vi Editor (Terminal Editor)/Vi Commands.md",
     "express-server/Express-server.md",
-    "tailwind-css/README.md",
+    "README.md",
     "mongoose/Mongoose Cheatsheet.md",
     "GitHub & Git/GitHub & Git.md",
-    "Vi Editor (Terminal Editor)/Vi Commands.md",
     "GitHub & Git/GitHub Pages.md",
     "tailwind-css",
     "Redux/How Redux works behind the scenes/How Redux works behind the scenes.md",
@@ -180,14 +182,12 @@
     "PHP/PHP Operators/PHP NOT Operator.md",
     "New Text Document.txt",
     "PHP/PHP Type Casting/PHP Type Casting.md",
-    "Untitled.md",
     "PHP/PHP Operators",
     "2023-12-02.md",
     "Untitled.canvas",
     "scroll-spy.md",
     "Pasted image 20231127173311.png",
     "Pasted image 20231127173319.png",
-    "READMEFF.md",
     "Redux/React Redux",
     "Untitled 2.canvas",
     "Untitled 1.canvas"
