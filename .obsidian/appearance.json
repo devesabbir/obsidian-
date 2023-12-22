@@ -1,5 +1,8 @@
 {
   "accentColor": "",
   "cssTheme": "Obsidianite",
-  "baseFontSize": 20
+  "baseFontSize": 20,
+  "interfaceFontFamily": "Operator Mono",
+  "textFontFamily": "Operator Mono",
+  "monospaceFontFamily": "Operator Mono"
 }

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c584c0faa6ce9d02",
+        "id": "65da8c9eb7567b93",
         "type": "tabs",
         "children": [
           {
-            "id": "6752c5bfd2c007d5",
+            "id": "dd309a7be83fe208",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GitHub & Git/GitHub & Git.md",
+                "file": "javascript/Reference Type value.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GitHub & Git/GitHub & Git.md",
+                "file": "javascript/Reference Type value.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GitHub & Git/GitHub & Git.md",
+                "file": "javascript/Reference Type value.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GitHub & Git/GitHub & Git.md"
+                "file": "javascript/Reference Type value.md"
               }
             }
           }
@@ -148,8 +148,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6752c5bfd2c007d5",
+  "active": "dd309a7be83fe208",
   "lastOpenFiles": [
+    "javascript/Functions/functions.md",
+    "javascript/Reference Type value.md",
     "tailwind-css/TailwindV2.md",
     "tailwind-css/TailwindV3.0.md",
     "Untitled.md",
@@ -165,7 +167,6 @@
     "Vi Editor (Terminal Editor)",
     "Redux/Fundamentals of redux/Fundamentals of redux.md",
     "WordPress/Custom Post Type.md",
-    "javascript/Functions/functions.md",
     "express-server/Mongoose Schema.md",
     "mongoose",
     "express-server",
@@ -185,7 +186,6 @@
     "PHP/PHP Operators",
     "2023-12-02.md",
     "Untitled.canvas",
-    "scroll-spy.md",
     "Pasted image 20231127173311.png",
     "Pasted image 20231127173319.png",
     "Redux/React Redux",
