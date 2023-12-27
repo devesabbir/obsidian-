@@ -24,12 +24,12 @@ src
 |       |-- styles.css
 |-- redux
 |   |-- feature1
-|   |     |-- actions
-|   |     |    |-- index.js
-|   |     |    |-- types.js
-|   |     |-- reducers
-|   |         |-- index.js
-|   |         |-- reducer.js         
+|   |   |-- actions
+|   |   |    |-- index.js
+|   |   |    |-- types.js
+|   |   |-- reducers
+|   |        |-- index.js
+|   |        |-- reducer.js         
 |   |-- feature2
 |   |   |-- actions
 |   |   |   |-- index.js
@@ -250,3 +250,135 @@ export const store = createStore(rootReducer, composeWithDevTools(applyMiddlewar
 ```
 
 #multiple-midleware #Custom_middleware #redux 
+
+
+#### Redux Asynchronous Concept 
+
+
+```javascript
+  const redux = require("redux");
+  const fetch = require("node-fetch2");
+
+  
+const initialState = {
+  todo: [],
+};
+
+  
+const todoReducer = (state = initialState, action) => {
+  switch (action.type) {
+    case "todo/add":
+      return {
+        ...state,
+        todo: [...state.todo, action.payload],
+      };
+    default:
+      return state;
+  }
+};
+
+  
+const myLogger = (store) => (next) => async (action) => {
+  if (action.type === "todo/add") {
+    const res = await fetch(
+      "https://jsonplaceholder.typicode.com/todos?_limit=5",
+      {
+        method: "GET",
+      }
+    );
+
+    const result = await res.json();
+    return;
+  }
+
+  return next(action);
+
+};
+
+  
+const store = redux.createStore(todoReducer, redux.applyMiddleware(myLogger));
+store.subscribe(() => {
+  const state = store.getState();
+  console.log(state?.todo);
+});
+
+store.dispatch({
+  type: "todo/add",
+  payload: {
+    title: "Todo One",
+  },
+});
+```
+
+#Redux #Asynchronous_redux
+
+
+#### How the Redux-Thunk Middleware works
+
+
+```javascript
+
+  const redux = require("redux");
+  const fetch = require("node-fetch2");
+
+  
+
+  const initialState = {
+    todo: [],
+  };
+
+
+  const todoReducer = (state = initialState, action) => {
+    switch (action.type) {
+    case "todos/add":
+
+      return {
+        ...state,
+        todo: [...state.todo, ...action.payload],
+      };
+    default:
+      return state;
+    }
+
+  };
+
+  
+// custom thunk function 
+
+const fetchTodos = (limit) => async (dispatch) => {
+  const res = await fetch(
+    "https://jsonplaceholder.typicode.com/todos?_limit=" + limit,
+    {
+      method: "GET",
+    }
+  );
+  const result = await res.json();
+  dispatch({
+    type: "todos/add",
+    payload: result,
+  });
+
+};
+
+
+const myThunkMiddleware = (store) => (next) => async (action) => {
+
+  // custom thunk function 
+  if (typeof action === "function") {
+  // Now action is a function 
+    action(store.dispatch, store.getState());
+    return;
+  }
+
+  return next(action);
+};
+
+  
+const store = redux.createStore(todoReducer, redux.applyMiddleware(myThunkMiddleware));
+
+store.subscribe(() => {
+  const state = store.getState();
+  console.log(state?.todo);
+});
+store.dispatch(fetchTodos(1));
+```
