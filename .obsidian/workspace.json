@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redux/React Redux/Redux-toolkit.md",
+                "file": "react-router@6/React Router 6.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Redux/React Redux/Redux-toolkit.md",
+                "file": "react-router@6/React Router 6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Redux/React Redux/Redux-toolkit.md",
+                "file": "react-router@6/React Router 6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Redux/React Redux/Redux-toolkit.md"
+                "file": "react-router@6/React Router 6.md"
               }
             }
           }
@@ -148,10 +148,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c4f9ee5cd1cd3b82",
+  "active": "ceac12dd32710c3b",
   "lastOpenFiles": [
-    "Pasted image 20231127173311.png",
     "Redux/React Redux/Redux-toolkit.md",
+    "react-router@6/React Router 6.md",
+    "react-router@6",
+    "Pasted image 20231127173311.png",
     "Redux/React Redux/React Redux.md",
     "Redux/How Redux works behind the scenes/How Redux works behind the scenes.md",
     "Redux/Fundamentals of redux/Fundamentals of redux.md",
@@ -186,7 +188,6 @@
     "PHP/PHP Operators/PHP Operators.md",
     "PHP/PHP Operators/PHP NOT Operator.md",
     "New Text Document.txt",
-    "PHP/PHP Operators",
     "Untitled.canvas",
     "Untitled 2.canvas",
     "Untitled 1.canvas"
