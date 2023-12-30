@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "react-router@6/React Router 6.md",
+                "file": "Redux/React Redux/Redux-toolkit.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "react-router@6/React Router 6.md",
+                "file": "Redux/React Redux/Redux-toolkit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "react-router@6/React Router 6.md",
+                "file": "Redux/React Redux/Redux-toolkit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "react-router@6/React Router 6.md"
+                "file": "Redux/React Redux/Redux-toolkit.md"
               }
             }
           }
@@ -151,10 +151,10 @@
   "active": "ceac12dd32710c3b",
   "lastOpenFiles": [
     "Redux/React Redux/Redux-toolkit.md",
+    "Redux/React Redux/React Redux.md",
     "react-router@6/React Router 6.md",
     "react-router@6",
     "Pasted image 20231127173311.png",
-    "Redux/React Redux/React Redux.md",
     "Redux/How Redux works behind the scenes/How Redux works behind the scenes.md",
     "Redux/Fundamentals of redux/Fundamentals of redux.md",
     "GitHub & Git/GitHub & Git.md",

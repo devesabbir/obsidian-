@@ -77,4 +77,46 @@ store.dispatch(counterSlice.actions.countByAmount(40));
 
 
 
+#### Project Folder structure
+
+```javascript
+// Folder Structure for redux react-redux
+src
+|-- components
+|   |-- Component1
+|   |   |-- index.js
+|   |   |-- styles.css
+|   |-- Component2
+|       |-- index.js
+|       |-- styles.css
+|-- containers
+|   |-- Container1
+|   |   |-- index.js
+|   |   |-- styles.css
+|   |-- Container2
+|       |-- index.js
+|       |-- styles.css
+|-- app
+|   |-- store.js
+|-- features
+|   |-- features1
+|   |   |-- thunk
+|   |   |   |-- featuresApi.js
+|   |   |-- featuresSlice.js    
+|   |-- features2
+|       |-- thunk
+|       |   |-- featuresApi.js
+|       |-- featuresSlice.js 
+|-- App.js
+|-- index.js
+|-- index.css
+|-- serviceWorker.js
+|-- assets
+|-- utils
+|-- constants
+|-- routes
+|-- tests
+```
+
+#redux #redux-toolkit 
 
