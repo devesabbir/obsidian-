@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6b0b548a94872fd3",
+        "id": "54879c614714d44c",
         "type": "tabs",
         "children": [
           {
-            "id": "bd4983b8e6dcb4c5",
+            "id": "ab73ba0079a2bbf5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "axios/Axios.md",
+                "file": "react-query/React Query.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "axios/Axios.md",
+                "file": "react-query/React Query.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "axios/Axios.md",
+                "file": "react-query/React Query.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "axios/Axios.md"
+                "file": "react-query/React Query.md"
               }
             }
           }
@@ -148,16 +148,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bd4983b8e6dcb4c5",
+  "active": "ab73ba0079a2bbf5",
   "lastOpenFiles": [
-    "javascript/Reference Type value.md",
+    "tailwind-css/TailwindV3.0.md",
+    "tailwind-css/TailwindV2.md",
+    "react-query/React Query.md",
+    "Untitled.md",
     "axios/Axios.md",
+    "react-query",
+    "GitHub & Git/GitHub & Git.md",
+    "javascript/Reference Type value.md",
     "axios",
     "GitHub & Git/GitHub Profile.md",
     "Git.md",
     "Redux/React Redux/Redux-toolkit.md",
     "Redux/React Redux/React Redux.md",
-    "GitHub & Git/GitHub & Git.md",
     "react-router@6/React Router 6.md",
     "react-router@6",
     "Pasted image 20231127173311.png",
@@ -170,8 +175,6 @@
     "PHP/PHP Fundamentals/PHP Fundamentals.md",
     "firebase",
     "javascript/Functions/functions.md",
-    "tailwind-css/TailwindV2.md",
-    "tailwind-css/TailwindV3.0.md",
     "Vi Editor (Terminal Editor)/Vi Commands.md",
     "express-server/Express-server.md",
     "mongoose/Mongoose Cheatsheet.md",
@@ -184,10 +187,7 @@
     "PHP/PHP Operators/PHP OR Operator.md",
     "javascript/Functions",
     "javascript",
-    "GitHub & Git",
     "PHP/PHP Operators/PHP Comparison Operators.md",
-    "PHP/PHP Operators/PHP Assignment Operators.md",
-    "PHP/PHP Operators/PHP AND Operator.md",
     "Untitled.canvas",
     "Untitled 2.canvas",
     "Untitled 1.canvas"
