@@ -123,3 +123,86 @@ src
 
 #redux #redux-toolkit 
 
+
+#### RTK-Query
+
+```js
+import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
+
+export const apiSlice = createApi({
+  reducerPath: "api",
+  baseQuery: fetchBaseQuery({
+    baseUrl: "http://localhost:9000",
+  })
+  tagTypes: ["Videos"],
+  endpoints: (builder) => ({
+    // get all videos
+    getVideos: builder.query({
+      query: () => "/videos",
+      providesTags: ["Videos"],
+    }),
+    
+    // get single video
+    getSingleVideo: builder.query({
+      query: (id) => "/videos/" + id,
+    }),
+
+    // get related videos
+    getRelatedVideos: builder.query({
+      query: ({ id, title }) => {
+        // ?title_like=code
+        const tags = title.split(" ");
+        const likes = tags.map((t) => `title_like=${t}`);
+        const queryString = `/videos?${likes.join("&")}&id_ne=${id}&_limit=4`;
+        return queryString;
+      },
+    }),
+
+
+    // add video
+    addVideo: builder.mutation({
+      query: (data) => ({
+        url: "/videos",
+        method: "POST",
+        body: data,
+      }),
+      invalidatesTags: ["Videos"],
+    }),
+    // delete video
+    deleteVideo: builder.mutation({
+      query: (id) => ({
+        url: "/videos/" + id,
+        method: "DELETE",
+      }),
+      invalidatesTags: ["Videos"],
+    }),
+  }),
+});
+
+  
+
+export const {
+  useGetVideosQuery,
+  useGetSingleVideoQuery,
+  useGetRelatedVideosQuery,
+  useAddVideoMutation,
+  useDeleteVideoMutation,
+} = apiSlice;
+```
+
+#### Store Setup
+
+```js
+import { configureStore } from "@reduxjs/toolkit";
+import { apiSlice } from "../features/api/apiSlice";
+
+
+export const store = configureStore({
+  reducer: {
+    [apiSlice.reducerPath]: apiSlice.reducer,
+  },
+  middleware: (getDefaultMiddleware) =>
+    getDefaultMiddleware().concat([apiSlice.middleware]),
+  devTools: true,
+});
+```
