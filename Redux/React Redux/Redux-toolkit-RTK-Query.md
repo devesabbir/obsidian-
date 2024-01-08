@@ -31,7 +31,6 @@
   const counterSlice = createSlice({
       name: "counter",
       initialState,
-
       reducers: {
       increment: (state, action) => {
          state.count += 1;
@@ -52,9 +51,7 @@
         console.log(action.payload)
       })  
   },
-
   },
-
 });
 
   
@@ -129,33 +126,42 @@ src
 ```js
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
+  
+
 export const apiSlice = createApi({
   reducerPath: "api",
   baseQuery: fetchBaseQuery({
     baseUrl: "http://localhost:9000",
-  })
-  tagTypes: ["Videos"],
+  }),
+  tagTypes: ["Videos", "Video", "RelatedVideos"],
   endpoints: (builder) => ({
     // get all videos
     getVideos: builder.query({
       query: () => "/videos",
-      providesTags: ["Videos"],
+      providesTags: () => ["Videos"],
     }),
-    
+
     // get single video
     getSingleVideo: builder.query({
       query: (id) => "/videos/" + id,
+      providesTags: (result, error, arg) => {
+        return [{ type: "Video", id: arg }];
+      },
     }),
 
+  
     // get related videos
     getRelatedVideos: builder.query({
       query: ({ id, title }) => {
         // ?title_like=code
-        const tags = title.split(" ");
-        const likes = tags.map((t) => `title_like=${t}`);
-        const queryString = `/videos?${likes.join("&")}&id_ne=${id}&_limit=4`;
+        const tags = title?.split(" ");
+        const likes = tags?.map((t) => `title_like=${t}`);
+        const queryString = `/videos?${likes?.join("&")}&id_ne=${id}&_limit=4`;
         return queryString;
       },
+      providesTags: (result, error, arg) => [
+        { type: "RelatedVideos", id: arg.id },
+      ],
     }),
 
 
@@ -166,27 +172,46 @@ export const apiSlice = createApi({
         method: "POST",
         body: data,
       }),
-      invalidatesTags: ["Videos"],
+      invalidatesTags: () => ["Videos"],
     }),
+
+  
     // delete video
     deleteVideo: builder.mutation({
       query: (id) => ({
         url: "/videos/" + id,
         method: "DELETE",
       }),
-      invalidatesTags: ["Videos"],
+      invalidatesTags: (result, error, arg) => ["Videos"],
+      
+    }),
+
+
+    // edit a video
+    editVideo: builder.mutation({
+      query: ({ id, data }) => ({
+        url: "/videos/" + id,
+        method: "PUT",
+        
+      }),
+  
+      invalidatesTags: (result, error, arg) => [
+        "Videos",
+        { type: "Video", id: arg },
+        { type: "RelatedVideos", id: arg },
+      ],
     }),
   }),
 });
 
   
-
 export const {
   useGetVideosQuery,
   useGetSingleVideoQuery,
   useGetRelatedVideosQuery,
   useAddVideoMutation,
   useDeleteVideoMutation,
+  useEditVideoMutation,
 } = apiSlice;
 ```
 

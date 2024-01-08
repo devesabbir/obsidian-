@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "fd0bf5745f685784",
+        "id": "2ff7782c317d9d65",
         "type": "tabs",
         "children": [
           {
-            "id": "5c006e41e8763bd8",
+            "id": "496f87db458734c5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redux/React Redux/Redux-toolkit-RTK-Query.md",
+                "file": "react+next/module-1/module-1.1 (Introduce to  React).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Redux/React Redux/Redux-toolkit-RTK-Query.md",
+                "file": "react+next/module-1/module-1.1 (Introduce to  React).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Redux/React Redux/Redux-toolkit-RTK-Query.md",
+                "file": "react+next/module-1/module-1.1 (Introduce to  React).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Redux/React Redux/Redux-toolkit-RTK-Query.md"
+                "file": "react+next/module-1/module-1.1 (Introduce to  React).md"
               }
             }
           }
@@ -148,13 +148,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5c006e41e8763bd8",
+  "active": "496f87db458734c5",
   "lastOpenFiles": [
+    "react+next/module-1",
+    "react+next/module-1/module-1.1 (Introduce to  React).md",
+    "react+next/module-1.1",
+    "react+next",
     "Redux/React Redux/React Redux.md",
+    "Redux/React Redux/Redux-toolkit-RTK-Query.md",
     "react-query/React Query.md",
     "tailwind-css/TailwindV3.0.md",
     "tailwind-css/TailwindV2.md",
-    "Untitled.md",
     "axios/Axios.md",
     "react-query",
     "GitHub & Git/GitHub & Git.md",
@@ -162,7 +166,6 @@
     "axios",
     "GitHub & Git/GitHub Profile.md",
     "Git.md",
-    "Redux/React Redux/Redux-toolkit-RTK-Query.md",
     "react-router@6/React Router 6.md",
     "react-router@6",
     "Pasted image 20231127173311.png",
@@ -185,9 +188,6 @@
     "mongoose",
     "express-server",
     "PHP/PHP Operators/PHP OR Operator.md",
-    "javascript/Functions",
-    "javascript",
-    "PHP/PHP Operators/PHP Comparison Operators.md",
     "Untitled.canvas",
     "Untitled 2.canvas",
     "Untitled 1.canvas"
